@@ -1,5 +1,13 @@
+// import { Hero } from "./components/header/Hero";
+import { Nav } from "./components/Navigation/Nav";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <main className="font-inter">
+      <Nav />
+      {/* <Hero /> */}
+    </main>
+  );
 };
 
 export default App;
