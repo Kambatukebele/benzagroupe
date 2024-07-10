@@ -2,10 +2,10 @@ import { useState } from "react";
 import benzaLogo from "../../assets/images/benzaLogo.jpeg";
 import Logo from "./Logo";
 import Ul from "./Ul";
-import Button from "./Button";
 import MenuOnSmallDevice from "./MenuOnSmallDevice";
+import Button from "../Button";
 
-export const Nav = () => {
+const Nav = () => {
   const [navSmallDevice, setNavSmallDevice] = useState(false);
   const handleNavigation = () => {
     setNavSmallDevice(!navSmallDevice);
@@ -19,8 +19,16 @@ export const Nav = () => {
           handleNavigation={handleNavigation}
         />
         <Ul navSmallDevice={navSmallDevice} />
-        <Button />
+        <div className="hidden lg:w-[200px] lg:flex lg:justify-end lg:items-center">
+          <Button
+            title="Get a free quote"
+            display="flex"
+            bg="bg-black"
+            bgHover="hover:bg-orange-700"
+          />
+        </div>
       </div>
     </nav>
   );
 };
+export default Nav;
