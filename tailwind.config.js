@@ -6,6 +6,11 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
+      backgroundImage: {
+        howWeWork_1: "url('/src/assets/images/benzaBiz.jpeg')",
+        howWeWork_2: "url('/src/assets/images/benzaBiz2.jpeg')",
+        howWeWork_3: "url('/src/assets/images/benzaBiz3.jpeg')",
+      },
     },
     container: {
       padding: {
