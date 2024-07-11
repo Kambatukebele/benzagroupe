@@ -5,6 +5,7 @@ import Hero from "./components/header/Hero";
 import HowWeWork from "./components/howWeWork/HowWeWork";
 import Nav from "./components/Navigation/Nav";
 import Services from "./components/services/Services";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Services />
       <Blog />
       <About />
+      <Footer />
     </main>
   );
 };

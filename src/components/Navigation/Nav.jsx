@@ -1,6 +1,6 @@
 import { useState } from "react";
-import benzaLogo from "../../assets/images/benzaLogo.jpeg";
-import Logo from "./Logo";
+import benzaLogo from "../../assets/images/benzaLogo.png";
+import Logo from "../Logo";
 import Ul from "./Ul";
 import MenuOnSmallDevice from "./MenuOnSmallDevice";
 import Button from "../Button";
@@ -13,7 +13,11 @@ const Nav = () => {
   return (
     <nav className="w-full h-fit py-4 bg-white shadow-sm relative">
       <div className="container mx-auto flex  justify-between items-center">
-        <Logo benzaLogo={benzaLogo} />
+        <Logo
+          img={benzaLogo}
+          widthBlock="lg:w-[200px]"
+          widthImage="w-[160px]"
+        />
         <MenuOnSmallDevice
           navSmallDevice={navSmallDevice}
           handleNavigation={handleNavigation}
