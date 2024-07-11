@@ -3,7 +3,7 @@ import DowDiv from "./DowDiv";
 
 const HowWeWork = () => {
   return (
-    <section className="w-full h-fit bg-orange-100 py-10 lg:py-20">
+    <section className="w-full h-fit bg-darkText py-10 lg:py-20">
       <div className="container mx-auto flex flex-col justify-center items-center gap-12">
         <UpDiv />
         <DowDiv />

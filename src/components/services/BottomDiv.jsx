@@ -1,11 +1,23 @@
 import RightServices from "./RightServices";
 import LeftServices from "./LeftServices";
-const Bottom = () => {
+import { services } from "../../data";
+const BottomDiv = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center gap-4 sm:flex-row lg:items-start">
-      <LeftServices />
-      <RightServices />
-    </div>
+    <>
+      {services.map((service) => {
+        const { id, smallTitle, title, paragraph, points, link, img, row } =
+          service;
+        return (
+          <div
+            key={id}
+            className={`w-full flex flex-col justify-center items-center gap-4 ${row} lg:gap-8`}
+          >
+            <LeftServices {...service} />
+            <RightServices img={img} />
+          </div>
+        );
+      })}
+    </>
   );
 };
-export default Bottom;
+export default BottomDiv;

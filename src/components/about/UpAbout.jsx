@@ -1,27 +1,28 @@
 import SmallHeading from "../SmallHeading";
 import H2 from "../H2";
 import Paragraph from "../Paragraph";
-const TopDiv = () => {
+
+const UpAbout = () => {
   return (
     <div className="w-full h-fit py-4 flex flex-col justify-center items-start gap-2 sm:items-center">
       <SmallHeading
-        title="Our services"
+        title="About me"
         bgColor="bg-blue_100"
-        textColor="text-orange-700"
-      />
-      <H2
-        title="Accounting solutions that scale"
-        text_position="sm:text-center"
-        max_width="sm:w-[450px] lg:w-[500px]"
         textColor="text-darkText"
       />
+      <H2
+        title="Simplify your finances and grow your business"
+        text_position="sm:text-center"
+        max_width="sm:w-[450px] lg:w-[700px]"
+        textColor="text-black"
+      />
       <Paragraph
-        title="Whether you're an individual, a small team, or a growing enterprise, we have a plan that aligns perfectly with your goals."
+        title="Choose us for accuracy, reliability, personalized service, proactive guidance, innovative solutions, and client-centric focus."
         text_position="sm:text-center"
         max_width="sm:w-[650px]"
-        text_color="text-darkText"
+        text_color="text-gray-500"
       />
     </div>
   );
 };
-export default TopDiv;
+export default UpAbout;

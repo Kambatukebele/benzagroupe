@@ -2,24 +2,31 @@ import SmallHeading from "../SmallHeading";
 import H3 from "../H3";
 import Paragraph from "../Paragraph";
 import Button from "../Button";
-const LeftServices = () => {
+import BulletPoints from "../BulletPoints";
+const LeftServices = ({ smallTitle, title, paragraph, points, link }) => {
   return (
-    <div className="w-full flex flex-col justify-center items-start gap-4 sm:w-1/2 lg:gap-10">
+    <div className="w-full flex flex-col justify-center items-start gap-4 sm:w-1/2">
       <SmallHeading
-        title="Bookkeeping"
-        bgColor="bg-orange-300"
-        textColor="text-orange-700"
+        title={smallTitle}
+        bgColor="bg-blue"
+        textColor="text-white"
       />
-      <H3 title=" Efficient bookkeeping solutions for organized financial management" />
+      <H3 title={title} width="lg:w-[500px]" />
       <Paragraph
         title="Efficient bookkeeping, tracking expenses, and managing cash flow."
-        text_color="text-gray-500"
+        text_color="text-darkText"
+        max_width="lg:w-[500px]"
       />
+      <div className="flex flex-col justify-center items-center gap-2">
+        <BulletPoints text={points[0]} />
+        <BulletPoints text={points[1]} />
+        <BulletPoints text={points[2]} />
+      </div>
       <Button
         title="Learn more"
         display="flex"
-        bg="bg-black"
-        bgHover="hover:bg-orange-700"
+        bg="bg-blue"
+        textColor="text-white"
       />
     </div>
   );

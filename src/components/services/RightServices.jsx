@@ -1,6 +1,5 @@
 import Image from "../Image";
-import benzaAccount from "../../assets/images/benzaAccount.jpg";
-const RightServices = () => {
-  return <Image src={benzaAccount} width="sm:w-1/2" />;
+const RightServices = ({ img }) => {
+  return <Image src={img} width="sm:w-1/2 h-[315px] lg:h-[605px]" />;
 };
 export default RightServices;

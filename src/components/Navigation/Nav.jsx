@@ -23,8 +23,8 @@ const Nav = () => {
           <Button
             title="Get a free quote"
             display="flex"
-            bg="bg-black"
-            bgHover="hover:bg-orange-700"
+            bg="bg-blue"
+            textColor="text-white"
           />
         </div>
       </div>

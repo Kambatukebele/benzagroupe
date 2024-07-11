@@ -7,8 +7,8 @@ const UpperDiv = () => {
     <div className="w-full h-fit py-4 flex flex-col justify-center items-start gap-2 sm:items-center">
       <SmallHeading
         title="Our Approach"
-        bgColor="bg-orange-200"
-        textColor="text-orange-700"
+        bgColor="bg-blue_100"
+        textColor="text-darkText"
       />
       <H2
         title="Simplify your finances and grow your business"

@@ -1,4 +1,6 @@
+import About from "./components/about/About";
 import Approach from "./components/approach/Approach";
+import Blog from "./components/blog/Blog";
 import Hero from "./components/header/Hero";
 import HowWeWork from "./components/howWeWork/HowWeWork";
 import Nav from "./components/Navigation/Nav";
@@ -12,6 +14,8 @@ const App = () => {
       <Approach />
       <HowWeWork />
       <Services />
+      <Blog />
+      <About />
     </main>
   );
 };
