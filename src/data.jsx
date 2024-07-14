@@ -16,6 +16,15 @@ import blog1 from "./assets/images/blog1.png";
 import blog2 from "./assets/images/blog2.png";
 import blog3 from "./assets/images/blog3.png";
 
+//Portfolios image
+import port1 from "./assets/images/benzaBiz.jpeg";
+import port2 from "./assets/images/benzaBiz2.jpeg";
+import port3 from "./assets/images/benzaBiz3.jpeg";
+import port4 from "./assets/images/benzaGermany.jpeg";
+import port5 from "./assets/images/benzaLome.jpeg";
+import port6 from "./assets/images/benzaLome2.jpeg";
+import port7 from "./assets/images/benzaPrague.jpeg";
+
 //ENd Import Images for services
 const $faChartSimple = <FontAwesomeIcon icon={faChartSimple} />;
 const $faBook = <FontAwesomeIcon icon={faBook} />;
@@ -106,6 +115,63 @@ export const services = [
   },
 ];
 
+// bugdet
+export const budgets = [
+  {
+    id: 1,
+    description: "Please choose",
+    selected: true,
+  },
+  {
+    id: 2,
+    description: "$500 - $1000",
+    selected: false,
+  },
+  {
+    id: 3,
+    description: "$1000 - $2000",
+    selected: false,
+  },
+  {
+    id: 4,
+    description: "$2000 - $3000",
+    selected: false,
+  },
+  {
+    id: 5,
+    description: "$3000 - $4000",
+    selected: false,
+  },
+  {
+    id: 6,
+    description: "$4000 - $5000",
+    selected: false,
+  },
+];
+// Type of business are you
+export const businessType = [
+  {
+    id: 1,
+    title: "Please choose",
+    selected: true,
+  },
+  {
+    id: 2,
+    title: "Individual",
+    selected: false,
+  },
+  {
+    id: 3,
+    title: "Company",
+    selected: false,
+  },
+  {
+    id: 4,
+    title: "Agency",
+    selected: false,
+  },
+];
+
 //Blog post
 export const blogs = [
   {
@@ -137,5 +203,44 @@ export const blogs = [
     description:
       "Where mobile devices dominate internet usage, responsive web design more crucial.",
     link: "#",
+  },
+];
+
+//Portfolio
+export const portfolios = [
+  {
+    id: 1,
+    img: port1,
+    title: "text 1",
+  },
+  {
+    id: 2,
+    img: port3,
+    title: "text 1",
+  },
+  {
+    id: 3,
+    img: port3,
+    title: "text 1",
+  },
+  {
+    id: 4,
+    img: port4,
+    title: "text 1",
+  },
+  {
+    id: 5,
+    img: port5,
+    title: "text 1",
+  },
+  {
+    id: 6,
+    img: port6,
+    title: "text 1",
+  },
+  {
+    id: 7,
+    img: port7,
+    title: "text 1",
   },
 ];

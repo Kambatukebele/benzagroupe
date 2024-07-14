@@ -5,7 +5,9 @@ import Hero from "./components/header/Hero";
 import HowWeWork from "./components/howWeWork/HowWeWork";
 import Nav from "./components/Navigation/Nav";
 import Services from "./components/services/Services";
+import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Portfolio from "./components/portfolio/Portfolio";
 
 const App = () => {
   return (
@@ -13,10 +15,12 @@ const App = () => {
       <Nav />
       <Hero />
       <Approach />
+      <Portfolio />
       <HowWeWork />
       <Services />
       <Blog />
       <About />
+      <Contact />
       <Footer />
     </main>
   );

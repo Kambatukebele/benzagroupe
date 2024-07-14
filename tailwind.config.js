@@ -13,6 +13,8 @@ export default {
           "linear-gradient(90deg, rgba(5,3,21,0.4) 0%, rgba(5,3,21,0.4) 50%, rgba(5,3,21,0.4) 100%), url('/src/assets/images/benzaBiz2.jpeg')",
         howWeWork_3:
           "linear-gradient(90deg, rgba(5,3,21,0.4) 0%, rgba(5,3,21,0.4) 50%, rgba(5,3,21,0.4) 100%), url('/src/assets/images/benzaBiz3.jpeg')",
+        "custom-bg": "url(./assets/images/bg.png)",
+        "bg-longue": "url(./assets/images/bg_longue.png)",
       },
     },
     container: {
