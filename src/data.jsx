@@ -11,6 +11,11 @@ import benzaAccount from "./assets/images/benzaAccount.jpg";
 import benzaAccount2 from "./assets/images/benzaAccount2.jpg";
 import benzaAccount3 from "./assets/images/benzaAccount3.jpg";
 
+//Blog Images
+import blog1 from "./assets/images/blog1.png";
+import blog2 from "./assets/images/blog2.png";
+import blog3 from "./assets/images/blog3.png";
+
 //ENd Import Images for services
 const $faChartSimple = <FontAwesomeIcon icon={faChartSimple} />;
 const $faBook = <FontAwesomeIcon icon={faBook} />;
@@ -101,37 +106,36 @@ export const services = [
   },
 ];
 
+//Blog post
 export const blogs = [
   {
     id: 1,
-    title: "blog1",
+    img: blog1,
+    author: "kamba",
+    published_date: "16 August 2024",
+    title: "10 Essential SEO Tips to Boost Your Website's Ranking",
+    description:
+      "Are you looking to improve your website's visibility and attract more organic traffic?",
     link: "#",
-    img: benzaAccount,
-    published: "21 March 2023",
-    department: "Marketing",
   },
   {
     id: 2,
-    title: "blog2",
+    img: blog2,
+    author: "tuke",
+    published_date: "06 October 2024",
+    title: "The Power of PPC Advertising: How to Maximize Your ROI",
+    description:
+      "Unlock the full potential of your digital marketing strategy with the power of PPC.",
     link: "#",
-    img: benzaAccount2,
-    published: "31 March 2024",
-    department: "Facebook",
   },
   {
     id: 3,
-    title: "blog3",
+    img: blog3,
+    author: "charles",
+    published_date: "26 October 2024",
+    title: "The Importance of Responsive Web Design in the Mobile Age",
+    description:
+      "Where mobile devices dominate internet usage, responsive web design more crucial.",
     link: "#",
-    img: benzaAccount3,
-    published: "01 July 2025",
-    department: "Instagram",
-  },
-  {
-    id: 4,
-    title: "blog4",
-    link: "#",
-    img: benzaAccount,
-    published: "16 Feruary 2025",
-    department: "tiktok",
   },
 ];
