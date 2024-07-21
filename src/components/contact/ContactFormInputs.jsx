@@ -17,12 +17,12 @@ const ContactFormInputs = () => {
         </div>
       </div>
       <div>
-        <Button
-          buttonText="Send"
-          buttonType="submit"
-          buttonExtraClass="bg-red-700 text-white hover:bg-red-800"
-          buttonIconClass="text-white"
-        />
+        <button
+          type="submit"
+          className="bg-red-700 text-white text-base w-20 py-2 rounded-lg hover:bg-red-800 shadow-2xl shadow-red-700"
+        >
+          Send
+        </button>
       </div>
     </div>
   );

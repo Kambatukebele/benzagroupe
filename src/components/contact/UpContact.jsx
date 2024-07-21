@@ -5,16 +5,16 @@ const UpContact = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center gap-4">
       <SmallHeading
-        title="Take action"
+        title="Contact Me"
         bgColor="bg-red-100"
         textColor="text-gray-600"
       />
       <H2
-        title="How I can help your business"
+        title="How I Can Help Your Business?"
         h2ExtraClass="font-semibold sm:text-center sm:w-[400px] md:w-[550px]"
       />
       <Paragraph
-        title="If you're in need of a freelance Shopify developer, want a full Shopify ecommerce websitet!"
+        title="From crafting tailored investment strategies and enhancing financial performance to navigating complex legal landscapes, I provide customized solutions that drive growth, ensure compliance, and optimize your operations."
         text_position="sm:text-center sm:w-[400px] md:w-[550px] text-gray-600"
       />
     </div>

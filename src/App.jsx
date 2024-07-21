@@ -14,10 +14,10 @@ const App = () => {
     <main className="font-inter">
       <Nav />
       <Hero />
+      <Services />
       <Approach />
       <Portfolio />
       <HowWeWork />
-      <Services />
       {/* <Blog /> */}
       <About />
       <Contact />

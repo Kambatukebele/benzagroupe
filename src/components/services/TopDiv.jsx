@@ -10,13 +10,13 @@ const TopDiv = () => {
         textColor="text-gray-600"
       />
       <H2
-        title="Accounting solutions that scale"
+        title="Comprehensive Legal, Financial, and Investment Services"
         text_position="sm:text-center"
-        max_width="sm:w-[450px] lg:w-[500px]"
+        max_width="sm:w-[450px] lg:w-[600px]"
         textColor="text-gray-800"
       />
       <Paragraph
-        title="Whether you're an individual, a small team, or a growing enterprise, we have a plan that aligns perfectly with your goals."
+        title="We provide a full suite of expert advisory services that integrate legal, financial, and investment strategies to help your business thrive in today’s dynamic environment."
         text_position="sm:text-center"
         max_width="sm:w-[650px]"
         text_color="text-gray-600"

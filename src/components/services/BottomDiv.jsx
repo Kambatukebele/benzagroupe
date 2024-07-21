@@ -5,8 +5,7 @@ const BottomDiv = () => {
   return (
     <>
       {services.map((service) => {
-        const { id, smallTitle, title, paragraph, points, link, img, row } =
-          service;
+        const { id, img, row } = service;
         return (
           <div
             key={id}

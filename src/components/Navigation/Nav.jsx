@@ -25,10 +25,11 @@ const Nav = () => {
         <Ul navSmallDevice={navSmallDevice} />
         <div className="hidden lg:w-[200px] lg:flex lg:justify-end lg:items-center">
           <Button
-            title="Get a free quote"
+            title="Book a call"
             display="flex"
             bg="bg-red-700 hover:bg-red-800"
             textColor="text-white"
+            link="https://calendly.com/nauvidbenza-benzagroupe/30min"
           />
         </div>
       </div>

@@ -11,13 +11,13 @@ const UpDiv = () => {
         textColor="text-gray-600"
       />
       <H2
-        title="Innovation redefined: a modern approach to accounting"
+        title="Tailored Solutions Through a Collaborative and Insightful Process"
         text_position="sm:text-center"
-        max_width="sm:w-[550px] lg:w-[800px]"
+        max_width="sm:w-[550px] md:w-[650px] lg:w-[890px]"
         textColor="text-gray-800"
       />
       <Paragraph
-        title="Experience our tech-driven solutions, personalized attention, and client-centered philosophy."
+        title="Our approach to delivering exceptional services is grounded in a collaborative and insightful process that ensures each client's unique needs are met with precision and care."
         text_position="sm:text-center"
         max_width="sm:w-[550px]"
         text_color="text-gray-600"

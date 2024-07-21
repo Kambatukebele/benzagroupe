@@ -29,87 +29,100 @@ import port7 from "./assets/images/benzaPrague.jpeg";
 const $faChartSimple = <FontAwesomeIcon icon={faChartSimple} />;
 const $faBook = <FontAwesomeIcon icon={faBook} />;
 const $faBullseye = <FontAwesomeIcon icon={faBullseye} />;
+//our approches
 export const approaches = [
   {
     id: 1,
     icon: $faChartSimple,
-    title: "Proven expertise in strategic financial guidance",
+    title: "Strategic Investment Solutions",
     paragraph:
-      "Our professionals offer tailored advice to optimize financial strategies for your business's sustainable growth.",
+      "Our Strategic Investment Solutions focus on creating customized investment plans that align with your financial goals and risk tolerance. By leveraging advanced market analytics and industry insights, we identify high-potential opportunities and develop strategies that drive sustainable growth. Our approach ensures your investments are not only profitable but also resilient in the face of market fluctuations.",
   },
   {
     id: 2,
     icon: $faBook,
-    title: "Innovative technology for streamlined operations",
+    title: "Expert Financial Management",
     paragraph:
-      "Utilizing cutting-edge tech, we ensure seamless processes and accurate data management.",
+      "Expert Financial Management offers a comprehensive suite of services designed to enhance your business’s financial health. We start with in-depth financial planning, tailored to your specific needs and goals. Our risk management strategies protect your assets, while our performance optimization techniques ensure ongoing profitability and growth. We provide you with the insights and tools needed to make informed financial decisions.",
   },
   {
     id: 3,
     icon: $faBullseye,
-    title: "Dependable accuracy in reporting and analysis",
+    title: "Comprehensive Legal Advisory",
     paragraph:
-      "Count on us for precise reporting and analysis, providing a solid foundation for your business.",
+      "Comprehensive Legal Advisory provides you with expert legal guidance to navigate complex regulatory environments. Our services include detailed regulatory compliance checks, robust contract management solutions, and proactive risk mitigation strategies. We aim to safeguard your business against potential legal issues, ensuring smooth and secure operations. Our team of legal experts is dedicated to protecting your interests and supporting your business objectives.",
   },
 ];
 
 export const howWeWorkSections = [
   {
     id: 1,
-    img: "bg-howWeWork_1",
-    title: "We capitalize on our biggest strengths",
-    para: "Delivering high-quality products or services consistently builds trust and establishes a reputation.",
-    link: "#",
+    title: "In-Depth Consultation",
+    para: "We begin with a thorough consultation to understand your business’s specific needs, goals, and challenges. This discovery phase involves in-depth discussions and assessments to gather essential information, enabling us to tailor our strategies to your unique situation.",
   },
   {
     id: 2,
-    img: "bg-howWeWork_2",
-    title: "We take a proactive approach to tech",
-    para: "A great business plan serves as a roadmap for the company's growth, helping to secure funding.",
-    link: "#",
+    title: "Customized Solution Development",
+    para: "Based on our initial analysis, we develop customized strategies that align with your objectives. Our team designs a comprehensive plan that integrates investment, financial, and legal considerations to address your needs effectively and ensure sustainable growth.",
   },
   {
     id: 3,
-    img: "bg-howWeWork_3",
-    title: "We capitalize on our biggest strengths",
-    para: "Delivering high-quality products or services consistently builds trust and establishes a reputation.",
-    link: "#",
+    title: "Focused and Efficient Execution",
+    para: "Once strategies are in place, we move to the implementation phase, where we execute the agreed-upon solutions with precision. Our team works diligently to ensure all aspects of the plan are carried out efficiently, maintaining transparency and open communication throughout the process.",
+  },
+  {
+    id: 4,
+    title: "Ongoing Evaluation and Adjustments",
+    para: "We continuously monitor the outcomes of our strategies to ensure they are achieving the desired results. Regular evaluations and performance assessments allow us to make informed adjustments and optimizations, ensuring that your business remains agile and responsive to any changes in the environment.",
+  },
+  {
+    id: 5,
+    title: "Dedicated Client Service",
+    para: "Our commitment to your success extends beyond implementation. We provide ongoing support and expert advice to address any emerging issues or opportunities. Our team is always available to offer guidance and ensure that your business continues to thrive in a dynamic landscape.",
   },
 ];
-
+//services
 export const services = [
   {
     id: 1,
-    smallTitle: "BookKeeping",
-    title: "Efficient bookkeeping solutions for organized financial management",
+    smallTitle: "Investment Advisory",
+    title: "Strategic Investment Solutions",
     paragraph:
-      "Efficient bookkeeping, tracking expenses, and managing cash flow.",
-    points: ["expert method", "expert method 2", "expert method 3"],
+      "Our Strategic Investment Solutions service offers tailored investment strategies and comprehensive advisory to maximize your returns and align with your long-term financial goals. We leverage market insights and advanced analytics to provide personalized investment plans that drive sustainable growth.",
+    points: [
+      "acquisition of investment funds",
+      "Advanced Market Analytics",
+      "Sustainable Growth Focus",
+    ],
     link: "#",
     img: benzaAccount,
     row: "sm:flex-row",
   },
   {
     id: 2,
-    smallTitle: "BookKeeping2",
-    title:
-      "Efficient bookkeeping solutions for organized financial management 2",
+    smallTitle: "Financial Consulting",
+    title: "Expert Financial Management",
     paragraph:
-      "Efficient bookkeeping, tracking expenses, and managing cash flow.2",
-    points: ["expert method 4", "expert method 5", "expert method 6"],
-    link: "#",
+      "Our Expert Financial Management service delivers customized financial strategies designed to enhance your business’s financial performance and stability. From financial planning and analysis to risk management and capital optimization, our consultants provide actionable insights and solutions.",
+    points: [
+      "Customized Financial Planning",
+      "Comprehensive Risk Management",
+      "Performance Optimization",
+    ],
     img: benzaAccount2,
     row: "sm:flex-row-reverse",
   },
   {
     id: 3,
-    smallTitle: "BookKeeping3",
-    title:
-      "Efficient bookkeeping solutions for organized financial management 3",
+    smallTitle: "Legal Consulting",
+    title: "Comprehensive Legal Advisory",
     paragraph:
-      "Efficient bookkeeping, tracking expenses, and managing cash flow.3",
-    points: ["expert method 7", "expert method 8", "expert method 9"],
-    link: "#",
+      "Our Comprehensive Legal Advisory service provides in-depth legal expertise to navigate complex regulatory environments and ensure compliance. We offer a wide range of legal services, including contract management, regulatory compliance, and risk mitigation, to safeguard your business interests.",
+    points: [
+      "Regulatory Compliance Expertise",
+      "Contract Management Solutions",
+      "Risk Mitigation Strategies",
+    ],
     img: benzaAccount3,
     row: "sm:flex-row",
   },
@@ -211,36 +224,32 @@ export const portfolios = [
   {
     id: 1,
     img: port1,
-    title: "text 1",
+    title: "Permon Visit",
   },
   {
     id: 2,
     img: port3,
-    title: "text 1",
+    title: "Permon Visit",
   },
   {
     id: 3,
     img: port3,
-    title: "text 1",
+    title: "Permon Visit",
   },
   {
     id: 4,
     img: port4,
-    title: "text 1",
+    title:
+      "Signing of agreements with the Minister of Tourism of Côte d'Ivoire",
   },
   {
     id: 5,
     img: port5,
-    title: "text 1",
+    title: "Partnership with the City Hall of Ouagadougou",
   },
   {
     id: 6,
     img: port6,
-    title: "text 1",
-  },
-  {
-    id: 7,
-    img: port7,
-    title: "text 1",
+    title: "Partnership with the City Hall of Ouagadougou",
   },
 ];
