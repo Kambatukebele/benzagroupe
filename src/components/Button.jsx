@@ -9,7 +9,7 @@ const Button = ({ title, bg, display, link, textColor }) => {
       <a href={link} className="block text-sm capitalize font-normal">
         {title}
       </a>
-      <span className="text-white text-base">
+      <span className="text-red-700 text-base w-8 h-8 flex justify-center items-center bg-white rounded-full">
         <FontAwesomeIcon icon={faArrowRight} />
       </span>
     </button>

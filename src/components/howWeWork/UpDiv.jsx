@@ -8,7 +8,7 @@ const UpDiv = () => {
       <SmallHeading
         title="How We Work"
         bgColor="bg-red-100 text-gray-600"
-        textColor="text-white"
+        textColor="text-gray-600"
       />
       <H2
         title="Innovation redefined: a modern approach to accounting"

@@ -25,7 +25,7 @@ const LeftServices = ({ smallTitle, title, paragraph, points, link }) => {
       <Button
         title="Learn more"
         display="flex"
-        bg="bg-blue"
+        bg="bg-red-700"
         textColor="text-white"
       />
     </div>
