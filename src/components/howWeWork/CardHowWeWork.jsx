@@ -1,8 +1,6 @@
-import Button from "../Button";
-import H2 from "../H2";
 import Paragraph from "../Paragraph";
 
-const CardHowWeWork = ({ id, img, title, para, link }) => {
+const CardHowWeWork = ({ id, img, title, para }) => {
   return (
     <div
       key={id}
@@ -10,13 +8,6 @@ const CardHowWeWork = ({ id, img, title, para, link }) => {
     >
       <h4 className="text-white text-2xl font-semibold">{title}</h4>
       <Paragraph title={para} text_color="text-white" />
-      <Button
-        title="read more"
-        bg="bg-red"
-        textColor="text-white"
-        display="flex"
-        link={link}
-      />
     </div>
   );
 };

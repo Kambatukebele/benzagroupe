@@ -6,7 +6,7 @@ const ContactFormInputs = () => {
   return (
     <div className="w-full flex flex-col justify-center items-start gap-4">
       <ContactFormNameEmail />
-      <ContactFormBusinessBuget />
+      {/* <ContactFormBusinessBuget /> */}
       <div className="w-full flex flex-col justify-center items-start gap-1 ">
         <Label
           labelHtmlFor="message"
@@ -20,7 +20,7 @@ const ContactFormInputs = () => {
         <Button
           buttonText="Send"
           buttonType="submit"
-          buttonExtraClass="bg-purple900 text-white"
+          buttonExtraClass="bg-red-700 text-white hover:bg-red-800"
           buttonIconClass="text-white"
         />
       </div>

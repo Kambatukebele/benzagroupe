@@ -11,7 +11,7 @@ const Nav = () => {
     setNavSmallDevice(!navSmallDevice);
   };
   return (
-    <nav className="w-full h-fit py-4 bg-white shadow-sm relative">
+    <nav className="w-full h-fit py-4 bg-gray-50  relative">
       <div className="container mx-auto flex  justify-between items-center">
         <Logo
           img={benzaLogo}
@@ -27,7 +27,7 @@ const Nav = () => {
           <Button
             title="Get a free quote"
             display="flex"
-            bg="bg-blue"
+            bg="bg-red-700 hover:bg-red-800"
             textColor="text-white"
           />
         </div>

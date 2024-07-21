@@ -6,8 +6,8 @@ const UpContact = () => {
     <div className="w-full flex flex-col justify-center items-center gap-4">
       <SmallHeading
         title="Take action"
-        bgColor="bg-blue"
-        textColor="text-white"
+        bgColor="bg-red-100"
+        textColor="text-gray-600"
       />
       <H2
         title="How I can help your business"
@@ -15,7 +15,7 @@ const UpContact = () => {
       />
       <Paragraph
         title="If you're in need of a freelance Shopify developer, want a full Shopify ecommerce websitet!"
-        text_position="sm:text-center sm:w-[400px] md:w-[550px]"
+        text_position="sm:text-center sm:w-[400px] md:w-[550px] text-gray-600"
       />
     </div>
   );

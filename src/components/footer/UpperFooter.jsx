@@ -1,4 +1,4 @@
-import benzaLogoNegative from "../../assets/images/benzaLogoNegative.png";
+import benzaLogo from "../../assets/images/benzaLogo.png";
 import facebook from "../../assets/svg/facebook.svg";
 import linkedin from "../../assets/svg/linkedin.svg";
 import instagram from "../../assets/svg/instagram.svg";
@@ -10,7 +10,7 @@ const UpperFooter = () => {
     <div className="w-full h-fit flex flex-col justify-center items-center gap-4 lg:flex-row lg:items-start lg:justify-between my-5 border-b border-b-gray py-5">
       <div className="w-full flex flex-col justify-center items-start h-fit gap-4 lg:w-2/6">
         <Logo
-          img={benzaLogoNegative}
+          img={benzaLogo}
           widthBlock="lg:w-[200px]"
           widthImage="w-[160px]"
         />

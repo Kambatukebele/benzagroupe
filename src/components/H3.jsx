@@ -1,6 +1,6 @@
 const H3 = ({ title, width }) => {
   return (
-    <h3 className={`text-xl lg:text-3xl text-darkText font-semibold ${width} `}>
+    <h3 className={`text-xl lg:text-3xl text-gray-800 font-semibold ${width} `}>
       {title}
     </h3>
   );
