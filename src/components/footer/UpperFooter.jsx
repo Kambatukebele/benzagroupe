@@ -40,23 +40,9 @@ const UpperFooter = () => {
         </li>
       </ul>
       <div className="flex justify-center items-center gap-4 g:w-2/6">
-        <a href="#" className="w-full">
+        <a href="https://www.linkedin.com/in/nauvid-beniol-benza-sehossolo-0166a6128?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="w-full">
           <img
-            className="w-7 h-7 object-cover object-center"
-            src={facebook}
-            alt=""
-          />
-        </a>
-        <a href="#" className="w-full">
-          <img
-            className="w-7 h-7 object-cover object-center"
-            src={instagram}
-            alt=""
-          />
-        </a>
-        <a href="" className="w-full">
-          <img
-            className="w-7 h-7 object-cover object-center"
+            className="w-10 h-10 object-cover object-center"
             src={linkedin}
             alt=""
           />

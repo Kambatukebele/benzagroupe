@@ -8,7 +8,7 @@ import Paragraph from "../Paragraph";
 import H4 from "../H4";
 const ContactInfo = () => {
   return (
-    <div className="hidden lg:flex lg:justify-center lg:flex-col lg:items-center lg:gap-4 lg:p-10 lg:w-2/5 lg:bg-red-700 lg:rounded-2xl">
+    <div className="hidden lg:flex lg:justify-center lg:flex-col lg:items-center lg:gap-4 lg:p-10 lg:w-full lg:bg-red-700 lg:rounded-2xl">
       <div className="lg:flex lg:flex-col lg:justify-center lg:items-start lg:gap-4">
         <H4
           title="Get in Touch for Expert Advisory"
