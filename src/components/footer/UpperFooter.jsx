@@ -15,28 +15,28 @@ const UpperFooter = () => {
           widthImage="w-[160px]"
         />
         <Paragraph
-          title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ducimus inventore molestiae laborum cupiditate optio!"
+          title="Expert Consulting for Legal and Financial Excellence delivers comprehensive analysis and strategic planning to navigate regulatory landscapes and enhance financial health."
           text_color="text-white"
         />
       </div>
       <ul className="w-full flex flex-col justify-center items-start h-fit gap-4 lg:w-2/6">
         <li className="text-sm lg:text-base text-white font-normal">
-          <a href="#">Home</a>
+          <a href="#services">Services</a>
         </li>
         <li className="text-sm lg:text-base text-white font-normal">
-          <a href="#">Home</a>
+          <a href="#approach">Approach</a>
         </li>
         <li className="text-sm lg:text-base text-white font-normal">
-          <a href="#">Home</a>
+          <a href="#work">Work</a>
         </li>
         <li className="text-sm lg:text-base text-white font-normal">
-          <a href="#">Home</a>
+          <a href="#process">Process</a>
         </li>
         <li className="text-sm lg:text-base text-white font-normal">
-          <a href="#">Home</a>
+          <a href="#about">About</a>
         </li>
         <li className="text-sm lg:text-base text-white font-normal">
-          <a href="#">Home</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="flex justify-center items-center gap-4 g:w-2/6">
